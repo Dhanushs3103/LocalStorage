@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#root > #data {
+    height: fit-content;
+    width: 300px;
+    border: 1px solid lightgrey;
+    margin: auto;
+    margin-top: 130px;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+#root > #data > label {
+    font-size: 20px;
+    
+}
+
+#root > #data > input {
+    height: 35px;
+    width: 285px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    outline: none;
+    font-size: 20px;
+    margin-top:10px ;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+#submit {
+    height: 45px !important;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:#2b64f6;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #2b64f6 !important;
+    color: #2b64f6;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn {
+    height: 45px !important;
+    padding: 10px;
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color:#2b64f6;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #2b64f6 !important;
+    color: #2b64f6;
+}
+
+
+table {
+   margin: auto;
+   margin-top: 150px;
+   width: 500px;
+   text-align: center;
+   border: 1px solid lavender;
+   border-collapse: collapse;
+   font-size: 20px;
+   border-radius: 20px;
+}
+
+thead {
+   background-color: #5FBDFF;
+   color: #EE7214;
+}
+
+tbody {
+    background-color: #C5FFF8;
+}
+
+
+th, td {
+    border: 1px solid lavender;
+    padding: 10px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#home > a > button {
+    height: 45px !important;
+    padding: 10px;
+    width: fit-content;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color:#2b64f6;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#home > a > button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: 1px solid #2b64f6 !important;
+    color: #2b64f6;
+}
